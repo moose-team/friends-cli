@@ -1,24 +1,11 @@
 {
   "name": "friends",
-  "version": "1.0.0-alpha.1",
   "description": "P2P chat powered by webrtc in a terminal",
-  "main": "index.js",
-  "author": "",
+  "version": "1.0.0-alpha.1",
+  "author": "Dan Flettre <flettre@gmail.com>",
   "bin": "./bin/cmd.js",
   "bugs": {
     "url": "https://github.com/moose-team/friend-cli/issues"
-  },
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/moose-team/friends-cli.git"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node bin/cmd.js"
-  },
-  "engines": {
-    "node": ">=4"
   },
   "dependencies": {
     "application-config-path": "^0.1.0",
@@ -40,5 +27,30 @@
     "simple-get": "^2.3.0",
     "subleveldown": "^2.1.0",
     "wrtc": "0.0.61"
+  },
+  "devDependencies": {
+    "standard": "^8.5.0"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "homepage": "https://github.com/moose-team/friends-cli",
+  "keywords": [
+    "chat",
+    "cli",
+    "friends",
+    "p2p",
+    "terminal",
+    "webrtc"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/moose-team/friends-cli.git"
+  },
+  "scripts": {
+    "start": "node bin/cmd.js",
+    "test": "standard"
   }
 }
